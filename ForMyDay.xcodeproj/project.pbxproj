@@ -186,6 +186,10 @@
 			);
 			mainGroup = 2603B3D22DB2135F005034B6;
 			packageReferences = (
+				26C1BC732DBB667900D603A3 /* XCRemoteSwiftPackageReference "realm-swift" */,
+				26C1BC742DBB66FE00D603A3 /* XCRemoteSwiftPackageReference "ReactorKit" */,
+				26C1BC752DBB671F00D603A3 /* XCRemoteSwiftPackageReference "Swinject" */,
+				26C1BC762DBB673700D603A3 /* XCRemoteSwiftPackageReference "RxSwift" */,
 			);
 			productRefGroup = 2603B3DC2DB21360005034B6 /* Products */;
 			projectDirPath = "";
@@ -431,6 +435,41 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		26C1BC732DBB667900D603A3 /* XCRemoteSwiftPackageReference "realm-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-swift.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		26C1BC742DBB66FE00D603A3 /* XCRemoteSwiftPackageReference "ReactorKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReactorKit/ReactorKit.git";
+			requirement = {
+				kind = upToNextMinorVersion;
+				minimumVersion = 3.2.0;
+			};
+		};
+		26C1BC752DBB671F00D603A3 /* XCRemoteSwiftPackageReference "Swinject" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Swinject/Swinject.git";
+			requirement = {
+				kind = upToNextMinorVersion;
+				minimumVersion = 2.9.1;
+			};
+		};
+		26C1BC762DBB673700D603A3 /* XCRemoteSwiftPackageReference "RxSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReactiveX/RxSwift.git";
+			requirement = {
+				kind = upToNextMinorVersion;
+				minimumVersion = 6.9.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
 	};
 	rootObject = 2603B3D32DB2135F005034B6 /* Project object */;
 }
